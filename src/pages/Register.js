@@ -23,7 +23,7 @@ function Register() {
     console.log(formData, "data to be sent to server");
 
     try {
-      const response = await fetch("http://localhost:6004/upload", {
+      const response = await fetch("https://anime-merch.onrender.com/upload", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)

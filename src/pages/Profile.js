@@ -26,7 +26,7 @@ const Profile = () => {
 
   const handleUpdate = async () => {
     try {
-      const res = await fetch(`http://localhost:6004/update-profile/${user._id}`, {
+      const res = await fetch(`https://anime-merch.onrender.com/update-profile/${user._id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ address, phone })
