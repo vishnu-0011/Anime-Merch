@@ -14,10 +14,6 @@ Whether you're a Naruto fan or a One Piece enthusiast, this project combines per
 **Frontend**: [https://anime-merch-fe.onrender.com](https://anime-merch-fe.onrender.com)  
 **Backend API**: [https://anime-merch.onrender.com](https://anime-merch.onrender.com)
 
-🧪 Demo Credentials:
-- **Email**: demo@anime.com
-- **Password**: demo123
-
 ---
 
 
