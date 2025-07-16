@@ -11,8 +11,8 @@ Whether you're a Naruto fan or a One Piece enthusiast, this project combines per
 
 ### 🔗 Live Demo
 
-**Frontend**: [https://your-anime-frontend.vercel.app](https://your-anime-frontend.vercel.app)  
-**Backend API**: [https://your-backend-api.onrender.com](https://your-backend-api.onrender.com)
+**Frontend**: [https://your-anime-frontend.vercel.app](https://anime-merch-fe.onrender.com)  
+**Backend API**: [https://your-backend-api.onrender.com](https://anime-merch.onrender.com)
 
 🧪 Demo Credentials:
 - **Email**: demo@anime.com
