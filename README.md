@@ -1,70 +1,164 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🛒 **AnimeMerch - Full Stack Anime Merchandise Store**
 
-## Available Scripts
+### **Overview**
+AnimeMerch is a full-stack web application that allows users to explore and purchase anime-themed merchandise such as T-shirts, hoodies, accessories, and collectibles. The platform provides a seamless shopping experience with modern features like user authentication, cart management, profile updates, and password reset functionality.
 
-In the project directory, you can run:
+Whether you're a Naruto fan or a One Piece enthusiast, this project combines performance and aesthetics for both casual users and anime lovers alike.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔗 Live Demo
 
-### `npm test`
+**Frontend**: [https://your-anime-frontend.vercel.app](https://your-anime-frontend.vercel.app)  
+**Backend API**: [https://your-backend-api.onrender.com](https://your-backend-api.onrender.com)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🧪 Demo Credentials:
+- **Email**: demo@anime.com
+- **Password**: demo123
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Introduction**
+AnimeMerch is developed using the MERN stack and demonstrates practical skills in building scalable, user-friendly e-commerce applications. The project features secure backend integration, Redux-powered cart state management, and responsive UI design using Bootstrap. It is a well-rounded demonstration of full-stack web development tailored for anime product merchandising.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### **Problem Statement**
+Anime fans often lack a unified platform for buying high-quality anime merchandise. This project aims to bridge that gap by providing a modern, responsive, and secure e-commerce platform that includes features expected in a professional retail site: login, registration, cart updates, profile management, and dynamic routing.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **Proposed Solution & Functionalities**
+The AnimeMerch solution includes the following key functionalities:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **User Authentication**: Register, login, and reset password securely.
+- **Product Display**: Scrollable product sections categorized by merchandise type.
+- **Cart Management**: Add, update quantity, and remove items using Redux state.
+- **Profile Management**: View and edit profile details like name, email, address, and phone.
+- **Logout Control**: Conditional navbar and session management using `localStorage`.
+- **Responsive Design**: Bootstrap-integrated for mobile and desktop devices.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### **Tech Stack**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Layer        | Technology |
+|--------------|------------|
+| **Frontend** | React.js, Redux Toolkit, React Router, Bootstrap 5 |
+| **Backend**  | Node.js, Express.js |
+| **Database** | MongoDB Atlas |
+| **Security** | bcrypt for password hashing |
+| **Tools**    | Postman (API testing), localStorage (state persistence) |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### **Architecture Workflow**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Users register and log in via the frontend forms.
+2. Backend securely stores hashed passwords and authenticates users.
+3. Redux manages cart actions and keeps the state synced.
+4. MongoDB stores user information and cart-related data.
+5. Conditional rendering and localStorage ensure the correct session and navigation flow.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### **Core Backend Routes**
 
-### Making a Progressive Web App
+| Method | Endpoint           | Description                  |
+|--------|--------------------|------------------------------|
+| `POST`| `/upload`           | Registers a new user         |
+| `POST`| `/login`            | Logs in an existing user     |
+| `PUT` | `/reset-password`   | Allows password change       |
+| `GET` | `/`                 | Health check for server      |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+All routes use proper validation and error handling for a secure experience.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### **Screenshots (Optional)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+- 🖼️ Product Carousel and Cards  
+- 🔐 Login and Registration Forms
+- 🛒 Cart View with Quantity Controls
+- 👤 Profile Update Page 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+### **Installation & Usage**
+Follow these steps to set up and run the project locally.
+
+
+#### **🛠️ Backend Setup**
+Navigate to the project directory:
+
+```bash
+cd backend
+```
+
+Install backend dependencies:
+
+```bash
+npm install
+```
+
+Start the backend server:
+
+```bash
+node index.js
+```
+#### **🎨 Frontend Setup**
+Open a new terminal and navigate to the frontend directory:
+
+```bash
+cd frontend
+```
+Install frontend dependencies:
+
+```bash
+npm install
+```
+Start the React development server:
+
+```bash
+npm start
+```
+Once everything is running:
+
+Visit http://localhost:3000 in your browser
+
+- Register or log in as a user
+
+- Browse products and manage your cart
+
+- Edit your profile
+
+- Reset password if needed
+
+---
+### **Future Enhancements**
+
+💳 Payment Gateway Integration (Stripe/Razorpay)
+
+🔍 Product Search and Filters
+
+🛠️ Admin Dashboard for Inventory Management
+
+📦 Order History & Tracking
+
+❤️ Wishlist/Favorites Feature
+
+---
+### **License**
+
+This project is open-source and available under the MIT License.
+
+
+
+
+
+
