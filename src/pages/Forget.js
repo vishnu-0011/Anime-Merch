@@ -17,7 +17,7 @@ function Forget() {
     setMessage("");
 
     try {
-      const res = await fetch("https://anime-merch.onrender.com/reset-password", {
+      const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/reset-password`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
