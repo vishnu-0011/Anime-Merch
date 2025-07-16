@@ -75,13 +75,25 @@ All routes use proper validation and error handling for a secure experience.
 ---
 
 
-### **Screenshots (Optional)**
+### **Screenshots**
 
 
-- 🖼️ Product Carousel and Cards  
+- 🖼️ Product Carousel and Cards
+  <img width="1920" height="936" alt="image" src="https://github.com/user-attachments/assets/f6dd2cd5-c389-499d-b99b-e2312dd96995" />
+  <img width="1920" height="929" alt="image" src="https://github.com/user-attachments/assets/ebb4ec1a-fe85-47b9-9149-bb2491afa4c4" />
+
+
+   
 - 🔐 Login and Registration Forms
+  <img width="1920" height="936" alt="image" src="https://github.com/user-attachments/assets/2856a6d2-6e35-43b3-b9d2-3a5624b99311" />
+  <img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/f45b4a62-bdcb-4749-979a-4872555dd789" />
+
+
+  
 - 🛒 Cart View with Quantity Controls
-- 👤 Profile Update Page 
+  <img width="1920" height="930" alt="image" src="https://github.com/user-attachments/assets/a195f0a2-282c-4edf-95c3-984d9f08767e" />
+
+  
 
 ---
 
